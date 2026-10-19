@@ -85,8 +85,8 @@
     </div></section>
     <section class="section how" id="contact"><div class="container"><div class="section-heading"><div class="eyebrow">Let’s make it merry</div><h2>Request your Christmas light estimate</h2><p>Fill out the form and your request will be sent to Santa’s Little Helper.</p></div>
       <div class="contact-grid"><div class="contact-panel"><h3>Santa’s Little Helper 🎅</h3><p>Great lights. Happier holidays!</p><div class="contact-line"><span>📞</span><div><strong>Call or text</strong><a href="tel:6024785862">602-478-5862</a></div></div><div class="contact-line"><span>✉️</span><div><strong>Email</strong><a href="mailto:santaslittlehelper.az@gmail.com">santaslittlehelper.az@gmail.com</a></div></div><div class="contact-line"><span>📍</span><div><strong>Service area</strong><span>San Tan Valley and surrounding East Valley communities; contact us to confirm your location.</span></div></div><p style="font-size:.9rem;color:rgba(255,255,255,.72);margin-top:2rem">Pricing and availability are confirmed directly for each project.</p></div>
-        <form name="estimate-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
-          <input type="hidden" name="form-name" value="estimate-request"><p hidden><label>Do not fill this out: <input name="bot-field"></label></p>
+        <form name="estimate-request" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thank-you.html">
+          <input type="hidden" name="form-name" value="estimate-request" /><p hidden><label>Do not fill this out: <input name="bot-field"></label></p>
           <label for="name">Your name</label><input id="name" name="name" autocomplete="name" required placeholder="Name">
           <label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
           <label for="phone">Phone number</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="Best number to reach you">
